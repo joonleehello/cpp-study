@@ -1,2 +1,1 @@
-# cpp-study
-Studying cpp for C++-gaming
+윤성우의 열혈 C++ 프로그래밍을 공부하면서 만든 기록장
