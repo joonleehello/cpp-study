@@ -30,3 +30,15 @@ std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 ## BetweenAdder.cpp
 if-else문, for문은 C와 같다.
 std::cin >> val1 >> val2  띄어쓰기로 구분해서 연속 입력 가능
+
+## StringIO.cpp
+std::cin은 개행문자를 자동 스킵한다.
+std::cin.getline과의 차이 ( 개행문자가 나오면 읽기 stop!)
+하지만 std::cin은 실제 데이터를 읽기 전까지 개행문자를 스킵한다.
+실제 데이터가 나온뒤의 개행문자를 만나면 입력을 끝낸다. (개행문자를 입력 buffer에 남김)
+
+## SalaryCalculator.cpp, MultiplicationTable.cpp
+
+C언어와 마찬가지로 Indentation의무가 없기 때문에 가독성 좋게 작성하는게 중요할 것 같다.
+그래서 예제문제를 풀 때도 신경썼다.
+while문도 C언어와 같게 사용하면 될 거 같다.
