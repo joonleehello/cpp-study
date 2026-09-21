@@ -3,3 +3,5 @@ CppStudy/
 x64/
 Debug/
 Release/
+*.exe
+*.obj
